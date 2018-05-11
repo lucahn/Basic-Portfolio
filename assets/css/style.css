@@ -1,22 +1,203 @@
 * {
-    font: "Times New Roman";
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    /* line below does not seem to work */
+    /* background: url("assets/images/funky-lines.png"); */
+    background-color: #444444;
+}
+
+#ul1 {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 3px solid #dddddd;
+}
+
+#li1 {
+    display: inline;
+}
+
+#dfli {
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-left: 240px;
+    margin-top: 0px;
+    width: 190px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+a {
+    margin-top: 0px;
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    float: left;
+    font-size: 20px;
+    padding: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+        a:link {
+            color: #777777;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #777777;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            color: #777777;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #777777;
+            text-decoration: none;
+        }
+
+#aboutlink {
+    margin-left: 370px;
+}
+
+#portfoliolink {
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    width: 0px;
+    height: 20px;
+}
+
+.middle{
+    text-align: center;
+}
+
+.mainbody {
+    /* box-sizing: border-box; */
+    /* position: relative; */
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    margin-top: auto;
+    margin-left: auto;
+    border: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+}
+
+#hr {
+    border: 1px solid #dddddd;
+    width: 900px;
+    height: 0px;
+    align-self: center;
+    margin: 15px;
+}
+
+#aboutme {
+    width: 900px;
+    align-self: center;
+    align-content: left;
+    color: #4aaaa5;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+#dinoimage {
+    width: 18%;
+    height: 18%;
+    float: left;
+    /* cannot seem to make the text and image float next to each other */
+    /* padding-left: 30px;
+    padding-right: 10px; */
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#floatleft {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 p {
-    font-size: 18px;
-}
-
-h1 {
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-h2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    color: #777777;
+    line-height: 1.5;
+    width: auto;
+    height: auto;
+    overflow: hidden;
 }
 
 li {
-    font-size: 15px;
-    list-style: circle;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    color: #777777;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+#ul2 {
+    padding-bottom: 30px;
+}
+
+.whitetext {
+    color: #dddddd;
+    font-size: 10px;
+}
+
+.input {
+    color: #777777;
+    border: 1.5px solid #dddddd;
+    align-self: center;
+    text-align: initial;
+    width: 900px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#messageinput {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.displaytext {
+    font-size: 20px;
+    color: #777777;
+    margin-left: 26px;
+}
+
+#footerbox {
+    height: 40px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
 }
